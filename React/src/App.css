@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-container {
+  width: 400px;
+  max-width: 1000px; /* Adjust this value to your desired chart width */
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.location-select {
+  width: 220px; /* Adjust this value to your desired width */
+}
+
+.alarm-light {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 20px;
+  border: 1px solid #333;
+}
+
+#chart1, #chart2, #chart3 {
+  float: left;
+  width: 33.33%;
+}
+
+.graphs-bucket {
+
+  width: 100%;
+  padding: 0 30px;
+  /* margin: 0 auto; */
+
+  /* width:100vb; */
+
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: wrap;              /* default value; can be omitted */
+  justify-content: space-between; 
+}
+
+.bucket {
+  width: 30%;
+  min-width: 480px;
+  margin-top: 10px;
+}
