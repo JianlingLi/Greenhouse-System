@@ -26,20 +26,17 @@ bool MagnetNearTheSensor = false;
 bool testing = false; //Change to true when testing the system
 
 // WiFi network name and password:
-//const char* networkName = "Omni_lite42B178"; 
-//const char* networkPswd = "face8865"; 
-const char mqtt_username[] = "jili006";
-const char mqtt_password[] = "77=C7l8f3o6L8ZyJ";
-const char mqtt_server[] = "mqtt.toytronics.com";
-const char *networkName = "LingiPhone";
-const char *networkPswd = "home69791215";
+const char mqtt_username[] = "<Enter the username>";
+const char mqtt_password[] = "<Enter the password>";
+const char mqtt_server[] = "<Enter the server name>";
+const char *networkName = "<Enter the network name>";
+const char *networkPswd = "<Enter the network password>";
 
-const String endpoint = "https://api.openweathermap.org/data/2.5/weather?q=Oslo,no&APPID=";
-const String key = "ea601f2417a1406f1e574259ccb96f9e";
+const String endpoint = "<Enter the OpenWeatherMap endpoint>";
+const String key = "<Enter the OpenWeatherMap Token/API key>";
 
 // IP address to send POST data to
-//const char * hostDomain = "192.168.39.114";
-const char * hostDomain = "172.20.10.3";
+const char * hostDomain = "<Enter the IP address>";
 const int hostPort = 3001;
 
 const int LED_PIN = LED_BUILTIN;
